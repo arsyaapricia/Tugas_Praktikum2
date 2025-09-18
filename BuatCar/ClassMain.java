@@ -12,14 +12,14 @@ public class ClassMain {
     public static void main(String[] args) {
        
         ClassCar defaultCar = new ClassCar();
-        ClassCar customCar = new ClassCar("Red", "D 1234 ABC", 1.9, 1.6, "Honda");
+        ClassCar customCar = new ClassCar("Merah Muda", "D 1234 ABC", 1.9, 1.6, "Porsche");
       
         System.out.println("=== DEFAULT CAR ===");
         defaultCar.displayInfo();
         System.out.println("\n=== CUSTOM CAR ===");
         customCar.displayInfo();
         
-        // Test methods
+        
         System.out.println("\n=== TESTING DEFAULT CAR METHODS ===");
         defaultCar.startEngine();
         defaultCar.throttle();
@@ -34,9 +34,9 @@ public class ClassMain {
         customCar.brake();
         customCar.turnOffHeadLamp();
         
-        // Test setters
+        
         System.out.println("\n=== AFTER MODIFYING DEFAULT CAR ===");
-        defaultCar.setColor("Blue");
+        defaultCar.setColor("Biru");
         defaultCar.setNoPlate("B 5678 DEF");
         defaultCar.displayInfo();
  

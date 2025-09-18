@@ -20,11 +20,11 @@ public class ClassCar implements CarBehavior {
     
     
     public ClassCar (){
-        this.color = "White";
+        this.color = "Putih";
         this.noPlate = "B 0000 XYZ";
         this.width = 1.8;
         this.height = 1.5;
-        this.brand = "Toyota";
+        this.brand = "Honda";
     }
     
     public ClassCar(String color, String noPlate, double width, double height, String brand) {
